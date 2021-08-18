@@ -125,3 +125,25 @@ a:hover{
 .end{
     font-weight: lighter;
 }
+
+@media screen and (max-width:800px){
+    .footerli{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (max-width:620px){
+    .hlinks{
+        flex-direction: column;
+    }
+    .footerli{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:400px){
+    .hlinks{
+        flex-direction: column;
+    }
+    .footerli{
+        grid-template-columns: auto;
+    }
+}
