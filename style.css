@@ -131,6 +131,15 @@ a:hover{
         grid-template-columns: auto auto auto;
     }
 }
+@media screen and (max-width:700px){
+    .banner45, .banner67, .banner89{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner45>div, .banner67>div, .banner89>div{
+        width: 100%;
+    }
+}
 @media screen and (max-width:620px){
     .hlinks{
         flex-direction: column;
